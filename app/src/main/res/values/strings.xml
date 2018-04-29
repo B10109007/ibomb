@@ -1,0 +1,181 @@
+<resources>
+    <!-- Application Specific -->
+	<string name="app_name">iBomb</string>
+    <string name="app_name_long">iBomb</string>
+
+    <!-- Menu -->
+    <string name="nav_header_app_name">iBomb</string>
+    <string name="toolbar_title_main">iBomb</string>
+    <string name="todos">購買清單</string>
+    <string name="home">首頁</string>
+    <string name="calendar_view">日曆預覽</string>
+    <string name="show_all_tasks">顯示購買項目</string>
+    <string name="settings">設定</string>
+    <string name="other">Other</string>
+	<string name="help">Help</string>
+	<string name="menu_about">About</string>
+    <string name="search">Search</string>
+
+    <!-- Common UI strings -->
+    <string name="navigation_drawer_open">Open menu</string>
+    <string name="navigation_drawer_close">Close menu</string>
+    <string name="name">Name</string>
+    <string name="todo_list_description_hint">Description</string>
+    <string name="ok">確定</string>
+
+    <!-- Common model strings -->
+    <string name="select_option">Select option</string>
+    <string name="high_priority">High</string>
+    <string name="medium_priority">Medium</string>
+    <string name="low_priority">Low</string>
+    <string name="unknown_priority">Unknown Priority</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Welcome Dialog -->
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_viewhelp">View Help</string>
+    <string name="welcome_text">Welcome to the Privacy Friendly To-Do List. This application requires no permissions. You can:</string>
+    <string name="welcome_hint_lists">Manage Tasks in labeled To-Do Lists.</string>
+    <string name="welcome_hint_deadlines">Create deadlines and reminders for tasks.</string>
+    <string name="welcome_hint_subtasks">Create subtasks by expanding the task.</string>
+    <string name="welcome_hint_pin">Add a PIN-protection in the settings.</string>
+    <string name="welcome_button">Begin</string>
+
+    <!-- Help -->
+    <string name="help_overview_heading">Overview</string>
+    <string name="help_intro">The Privacy Firendly To-Do List can be used to keep outstanding tasks in mind and organize a personal schedule.</string>
+    <string name="help_group_lists">List management</string>
+    <string name="help_todo_lists_title">To-Do lists</string>
+    <string name="help_todo_lists">A To-Do list is a group of tasks and can be created using the + Button in the main menu. Tasks inside a To-Do can be checked and unchecked to track the progress of the whole list.</string>
+    <string name="help_subtasks_title">Subtasks</string>
+    <string name="help_subtasks">Subtasks can be attached to a task to represent smaller steps to accomplish it. They can be created by tapping on a task when viewing a single list.</string>
+    <string name="help_deadline_reminder_title">Deadlines and reminders</string>
+    <string name="help_deadline_reminder">Deadlines and reminders can only be created for tasks. You can either specify them while creating a task, or while editing it. Hold on a task for a while to edit it.</string>
+    <string name="help_group_app">Application</string>
+    <string name="help_pin_title">PIN protection</string>
+    <string name="help_pin">Open the settings menu to setup a PIN protection for your application. The PIN must be a number with 4 digits. You are asked for it every time you start the application.</string>
+    <string name="help_group_privacy">Privacy Info</string>
+    <string name="help_permissions_title">Permission RECEIVE_BOOT_COMPLETED</string>
+    <string name="help_permissions">This permission allows the app to check right after booting of the device if the user wants to get informed about an upcoming deadline.</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="version_number">Version 1.0.1</string>
+    <string name="about_author">Authors:</string>
+    <string name="about_author_names" translatable="false">Dominik Püllen, Simon Breitfelder</string>
+    <string name="about_author_contributors">and contributors.</string>
+    <string name="about_affiliation">In affiliation with</string>
+    <string name="privacy_friendly">This application belongs to the group of Privacy Friendly Apps developed by Technische Universität Darmstadt. Sourcecode licensed under Apache license. Images copyright TU Darmstadt and Google Inc.</string>
+    <string name="more_info">More information can be found on:</string>
+    <string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-todo-list">Github-Repo</a></string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
+
+    <!-- To-Do list overview -->
+	<string name="done">done</string>
+	<string name="no_todo_lists_available">目前沒有清單</string>
+	<string name="next_deadline_dd">最近有效期限: %1$s</string>
+    <string name="no_next_deadline">無有效期限</string>
+    <string name="add_list_feedback">%1$s added</string>
+    <string name="edit_todo_list">編輯</string>
+    <string name="delete_list">刪除</string>
+    <string name="delete_list_feedback">%1$s deleted</string>
+
+    <!-- Create/Edit To-Do list dialog -->
+    <string name="new_todo_list">增加購買清單</string>
+    <string name="list_name_must_not_be_empty">Please enter a list name.</string>
+    <string name="show_description">Show description</string>
+    <string name="no_description_available">No description available.</string>
+
+    <!-- To-Do tasks overview -->
+    <string name="empty_todo_list">目前沒有任何食物</string>
+    <string name="all_tasks">所有食物資訊</string>
+    <string name="open_tasks">顯示所有食物</string>
+    <string name="completed_tasks">過期的食物</string>
+    <string name="group_by_priority">依照priority分類</string>
+    <string name="sort_by_deadline">依照deadline排序</string>
+    <string name="add_subtask">增加食物資訊</string>
+
+    <!-- Create/Edit To-Do task dialog -->
+    <string name="new_todo_task">新增食物</string>
+    <string name="deadline_dd">有效期限:</string>
+    <string name="no_deadline">無有效期限</string>
+    <string name="edit_task">編輯</string>
+    <string name="delete_task">刪除</string>
+    <string name="task_removed">成功刪除</string>
+    <string name="deadline">有效期限</string>
+    <string name="reminder">提醒時間</string>
+    <string name="deadline_smaller_reminder">The deadline can not be earlier than the reminder time.</string>
+    <string name="set_deadline_before_reminder">Please specify a deadline before setting the reminder time.</string>
+    <string name="progress_colon">Progress:</string>
+    <string name="priority_colon">Priority:</string>
+    <string name="zero_percent">0%</string>
+    <string name="select_priority">Please select a priority!</string>
+    <string name="new_todo_subtask">新增食物資訊</string>
+    <string name="todo_name_must_not_be_empty">Please enter a task name.</string>
+    <string name="edit_subtask">編輯</string>
+    <string name="delete_subtask">刪除</string>
+    <string name="subtask_removed">成功刪除</string>
+
+    <!-- Select reminder dialog -->
+	<string name="date">Date</string>
+	<string name="time">Time</string>
+	<string name="no_reminder">No Reminder</string>
+
+    <!-- Calendar view -->
+    <string name="calendar">Calendar</string>
+    <string name="no_deadline_today">當天沒有要過期的食物!</string>
+
+    <!-- PIN -->
+	<string name="enter_pin">Enter PIN</string>
+	<string name="wrong_pin">Wrong PIN</string>
+    <string name="reset_application_button">Reset application</string>
+    <string name="invalid_pin">Please enter a PIN with 4 digits.</string>
+    <string name="reset_application_msg">Do you really want to reset the application? This will remove the PIN-protection and delete all To-Do lists.</string>
+    <string name="add_pin">Add a numeric PIN to provide access to enter the app. The PIN must contain at least 4 digits.</string>
+
+    <!-- Settings -->
+	<string name="default_reminder_time">預設提醒時間</string>
+    <string-array name="default_reminder_times_human">
+        <item>保存期限當天</item>
+        <item>保存期限0.5天前</item>
+        <item>保存期限1天前</item>
+        <item>保存期限1.5天前</item>
+        <item>保存期限2天前</item>
+        <item>保存期限2.5天前</item>
+        <item>保存期限3天前</item>
+    </string-array>
+    <string name="pin_enabled">PIN required on startup</string>
+    <string name="set_pin">Set PIN</string>
+
+    <!-- Reminder service -->
+    <string name="deadline_approaching">冰箱裡有炸彈，有效期限快到了: %1$s</string>
+
+    <!-- Date and Time -->
+	<string name="sunday_abbr">SUN</string>
+	<string name="monday_abbr">MON</string>
+	<string name="tuesday_abbr">TUE</string>
+	<string name="wednesday_abbr">WED</string>
+	<string name="thursday_abbr">THU</string>
+	<string name="friday_abbr">FRI</string>
+	<string name="saturday_abbr">SAT</string>
+	<string name="january">January</string>
+	<string name="february">February</string>
+	<string name="march">March</string>
+	<string name="april">April</string>
+	<string name="may">May</string>
+	<string name="june">June</string>
+	<string name="july">July</string>
+	<string name="august">August</string>
+	<string name="september">September</string>
+	<string name="october">October</string>
+	<string name="november">November</string>
+	<string name="december">December</string>
+
+    <!-- Error messages -->
+    <string name="error_removing_subtask">Subtask could not be removed from the database.</string>
+    <string name="error_removing_task">Could not remove todo task from the database.</string>
+    <string name="list_to_db_error">Error while creating new To-Do list.</string>
+    <string name="task_to_db_error">Error while inserting new task into the database.</string>
+    <string name="subtask_to_db_error">An error occured while inserting new subtask to the database.</string>
+</resources>
